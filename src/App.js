@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { Tile } from './components/Tiles/Tile'
 
 function App() {
+  const list = [];
+  for (let i = 2; i <= 2048; i = i * 2) {
+    list.push(i);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1>Hello World</h1>
+      {list.map((v) => {
+        return <Tile value={v} />
+      })}
     </div>
   );
 }

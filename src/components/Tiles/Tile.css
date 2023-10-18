@@ -1,0 +1,58 @@
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    color: #b96d21;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.tile-2 {
+    background-color: #FFEECC;
+}
+
+.tile-4 {
+    background-color: #FFDDCC;
+}
+
+.tile-8 {
+    background-color: #FFCCCC;
+}
+
+.tile-16 {
+    background-color: #FEBBCC;
+}
+
+.tile-32 {    
+    color:#FFEECC;
+    background-color: #FFABAB;
+}
+
+.tile-64 {
+    color:#FFEECC;
+    background-color: #e3a9c2;
+}
+
+.tile-128 {
+    background-color: #E3DFFD;
+}
+
+.tile-256 {
+    color:#FFEECC;
+    background-color: #FF8080;
+}
+
+.tile-512 {
+    background-color: #EAC7C7;
+}
+
+.tile-1024 {
+    background-color: #FFE7CC;
+}
+
+.tile-2048 {
+    background-color: #A0C3D2;
+}
