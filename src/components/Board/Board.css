@@ -1,0 +1,11 @@
+
+.board {
+    background-color: #AD9D8F;
+    padding: 5px;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.board-row {
+    display: flex;
+}
